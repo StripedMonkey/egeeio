@@ -17,7 +17,7 @@ md-toolbar.md-default-theme.my-class {
   background-color: color("blue-grey", '900');
 }
 
-main {
+body {
   color: $base-text-color;
   background-color: $base-background-color;
   z-index: 1;
@@ -54,4 +54,14 @@ body {
 
 .lato_regular {
   font-family: 'Lato Regular', 'sans-serif';
+}
+
+/* Miscellaneous Helpers & Overrides
+========================================================================== */
+.marginless-top {
+    margin-top: 0px;
+}
+
+.marginless-bottom {
+    margin-bottom: 0px;
 }
