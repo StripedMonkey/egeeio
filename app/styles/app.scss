@@ -2,8 +2,10 @@
 $primary: "blue-grey";
 $accent: "pink";
 $warn: "red";
-$background: "grey";
 $link: "light-blue";
+
+$base-text-color: #d5d5d5;
+$base-background-color: #363636;
 
 @import "color-palette";
 // $color-blue-grey: map-merge($color-blue-grey, ('500':  rgba(38, 50, 56, 1)));
@@ -15,6 +17,41 @@ md-toolbar.md-default-theme.my-class {
   background-color: color("blue-grey", '900');
 }
 
-// .logo {
-//   text-decoration: none;
-// }
+main {
+  color: $base-text-color;
+  background-color: $base-background-color;
+  z-index: 1;
+}
+
+/* Font Styles
+========================================================================== */
+@font-face {
+  font-family: 'Lato';
+  src: url('fonts/lato/Lato-Medium.woff');
+}
+
+@font-face {
+  font-family: 'Lato Light';
+  src: url('fonts/lato/Lato-Light.woff');
+}
+
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('fonts/lato/Lato-Thin.woff');
+}
+
+body {
+  font-family: 'Lato', 'sans-serif';
+}
+
+.lato_light {
+  font-family: 'Lato Light', 'sans-serif';
+}
+
+.lato_thin {
+  font-family: 'Lato Thin', 'sans-serif';
+}
+
+.lato_regular {
+  font-family: 'Lato Regular', 'sans-serif';
+}
