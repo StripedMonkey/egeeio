@@ -1,23 +1,20 @@
-// Define desired color palettes.
+// // Define desired color palettes.
 $primary: "blue-grey";
-$accent: "light-green";
-$warn: "pink";
+$accent: "pink";
+$warn: "red";
+$background: "grey";
+$link: "light-blue";
 
-// If desired, import the palettes and modify to your liking.
 @import "color-palette";
-$color-teal: map-merge($color-teal, ('contrast':  $light-contrast-color));
-$color-light-green: map-merge($color-light-green, ('contrast':  $light-contrast-color));
+// $color-blue-grey: map-merge($color-blue-grey, ('500':  rgba(38, 50, 56, 1)));
 
-// Import the rest of ember-paper.
 @import "ember-paper";
 
-// Import or define the rest of your application's styles.
-
-.my-component {
+md-toolbar.md-default-theme.my-class {
   color: color($primary, 'contrast');
-  background-color: color($primary, '200');
+  background-color: color("blue-grey", '900');
 }
 
-.logo {
-  text-decoration: none;
-}
+// .logo {
+//   text-decoration: none;
+// }
