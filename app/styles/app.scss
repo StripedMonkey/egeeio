@@ -17,7 +17,7 @@ md-toolbar.md-default-theme.my-class {
   background-color: color("blue-grey", '900');
 }
 
-body {
+main {
   color: $base-text-color;
   background-color: $base-background-color;
   z-index: 1;
@@ -64,6 +64,13 @@ body {
 
 .marginless-bottom {
     margin-bottom: 0px;
+}
+
+.background {
+  background: url('images/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1080px;
 }
 
 .minecraft_256 {
