@@ -10,8 +10,35 @@
     Egee.io is driven by a passionate community of gamers, hackers, and regular desktop users. If you'd like to learn more about us, check out the <i>about</i> tab.
   </p>
 </div>
+{{#paper-grid-list md-cols="4" md-gutter="1em" md-row-height="256px"}}
 
+  {{#paper-grid-tile class='minecraft_256'}}
+    {{#paper-grid-tile-footer}}
+      <h3>Minecraft</h3>
+    {{/paper-grid-tile-footer}}
+  {{/paper-grid-tile}}
+
+    {{#paper-grid-tile class='terraria_256'}}
+    {{#paper-grid-tile-footer}}
+      <h3>Terraria</h3>
+    {{/paper-grid-tile-footer}}
+  {{/paper-grid-tile}}
+
+    {{#paper-grid-tile class='gmod_256'}}
+    {{#paper-grid-tile-footer}}
+      <h3>Garry's Mod</h3>
+    {{/paper-grid-tile-footer}}
+  {{/paper-grid-tile}}
+
+    {{#paper-grid-tile class='rust_256'}}
+    {{#paper-grid-tile-footer}}
+      <h3>Rust</h3>
+    {{/paper-grid-tile-footer}}
+  {{/paper-grid-tile}}
+
+{{/paper-grid-list}}
 <div class="layout-row layout-align-center-center">
+
   <div>
     <h3 class="lato_light">Join Us!</h3>
     <p>
@@ -46,12 +73,4 @@
   <sub>Hosted by Egee.io</sub>
 </div>
 
-  {{#paper-grid-list md-cols="4" md-row-height="4:3"}}
 
-      {{#paper-grid-tile class='minecraft_256'}}
-        {{#paper-grid-tile-footer}}
-            <h3>Minecraft</h3>
-        {{/paper-grid-tile-footer}}
-      {{/paper-grid-tile}}
-
-  {{/paper-grid-list}}
